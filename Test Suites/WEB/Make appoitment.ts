@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Make appoitment</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>9c7e3db6-ccda-4c70-85d2-85050080adbe</testSuiteGuid>
+   <testCaseLink>
+      <guid>4522503e-222d-4ad4-8ce9-3adc18cda9fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/Login Logout/TC_Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>83181658-6240-4364-8664-1c2c7d51f383</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/Make Appointment/TC_MakeAppointment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3a404b6c-cc99-4eb3-8532-ea90421d2221</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/AppointmentData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>3a404b6c-cc99-4eb3-8532-ea90421d2221</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>facility</value>
+         <variableId>d7f547e0-0f9e-4dd0-89e4-600792fe8f64</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3a404b6c-cc99-4eb3-8532-ea90421d2221</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>readmission</value>
+         <variableId>113dcfef-97dc-4ab6-a3a5-d43b8c7ef7b7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3a404b6c-cc99-4eb3-8532-ea90421d2221</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>program</value>
+         <variableId>20224725-369b-4973-b72a-4754b2194188</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3a404b6c-cc99-4eb3-8532-ea90421d2221</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>visitDate</value>
+         <variableId>2dbe5692-7ab5-43e6-a38f-59d1184c0d7f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3a404b6c-cc99-4eb3-8532-ea90421d2221</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>comment</value>
+         <variableId>9669317e-8223-4ad3-98f4-dc4c98b0a282</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d1c133b0-3b4c-483f-869b-9a999a6d8a04</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WEB/Login Logout/TC_Logout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>
