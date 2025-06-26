@@ -1,4 +1,4 @@
-# KawanLama Test Automation Repository
+# Katalon Test Automation Repository
 
 This repository contains Katalon Studio projects for automating tests, including both web and API testing.
 
